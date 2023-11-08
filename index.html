@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redactr App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Text Redactr App</h1>
+      <form id="redact-form">
+        <textarea
+          id="text-input"
+          placeholder="Enter text to redact"
+          rows="5"
+        ></textarea>
+        <input
+          type="text"
+          id="words-to-redact"
+          placeholder="Words to redact (separated by space)"
+        />
+        <input
+          type="text"
+          id="redaction-char"
+          placeholder="Redaction character (e.g., *)"
+        />
+        <button type="button" id="redact-button">Redact Now</button>
+        <button type="button" id="reset-button">Reset Form</button>
+      </form>
+      <div id="redacted-text">
+        <h2>Redacted Text</h2>
+        <p id="output"></p>
+        <div id="stats"></div>
+      </div>
+    </div>
+    <script src="redact.js"></script>
+  </body>
+</html>
