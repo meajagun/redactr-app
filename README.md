@@ -1,18 +1,20 @@
 # Redactr App
 
-Redactr is a simple web application that allows users to safely share content on social media by redacting or scrambling portions of the text they don't want the world to read or see. This app enables users to specify words to be redacted and choose a redaction character.  Protect your privacy while sharing content online with Redactr.
+Redactr is a web application that allows users to safely share content on social media by redacting or scrambling portions of text they don't want the world to read or see. Users can specify words to be redacted and choose a redaction character of their choice.
 
 ## Access the App
 
-You can access the Redactr app through GitHub Pages: [Redactr App](https://yourusername.github.io/redactr-app)
+You can access the Redactr app through GitHub Pages. Click the link below to use the app:
+
+[**Redactr App**](https://meajagun.github.io/redactr-app/)
 
 ## Features
 
 - Input text to be redacted.
 - Specify words to be redacted (separated by spaces).
 - Choose a redaction character (e.g., *, ?, -, or custom characters).
-- Display statistics such as words scanned, words redacted, characters redacted, and time taken.
-- Clear the form and start a new redaction.
+- Display statistics, including words scanned, words redacted, characters redacted, and the time taken.
+- Clear the form to start a new redaction.
 
 ## Usage
 
@@ -35,5 +37,12 @@ Here's an example of how to use the Redactr app:
 
 ## Development
 
-To set up the Redactr app for development, clone this repository and open the `index.html`
+To set up the Redactr app for development, clone this repository and open the `index.html` file in your web browser. You can modify the app and see your changes in real-time. The app is built using HTML, CSS, and JavaScript.
 
+## Author
+
+Ebinbin Ajagun
+
+## License
+
+This project is licensed under the MIT License. Feel free to use and modify it at your own risk.
